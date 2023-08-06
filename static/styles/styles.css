@@ -1,0 +1,272 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: auto;
+  padding: 30px;
+  height: 800px;
+}
+
+.home-button {
+  position: relative;
+  left: 25px;
+  bottom: 15px;
+  font-size: 25px;
+  font-weight: 800px;
+  color: white;
+}
+.nav {
+  position: relative;
+  float: right;
+  background-color: #1aadcd;
+  width: 130px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.design1 {
+  position: relative;
+  left: 150px;
+  top: 30px;
+}
+
+.design2 {
+  position: relative;
+  left: 600px;
+  top: 70px;
+}
+
+.group2-1 {
+  width: 70px;
+  height: 70px;
+}
+.group2 {
+  width: 70px;
+  height: 70px;
+}
+
+.heading {
+  position: relative;
+  bottom: 80px;
+}
+.logo1 {
+  width: 140px;
+  height: 140px;
+}
+.para1 {
+  position: relative;
+  left: 165px;
+  bottom: 210px;
+  font-size: 50px;
+  font-weight: 700px;
+  color: #032c46;
+}
+
+.para2 {
+  position: relative;
+  left: 165px;
+  bottom: 320px;
+  font-size: 85px;
+  font-weight: 700px;
+  color: #db0d00;
+}
+
+.hero-image {
+  position: absolute;
+  left: 900px;
+  bottom: 10px;
+  /* position: relative;
+  left: 850px;
+  bottom: 600px; */
+}
+.ellipse {
+  position: relative;
+  right: 130px;
+  top: 230px;
+  width: 600px;
+  height: 600px;
+}
+.icon1 {
+  position: relative;
+  left: 365px;
+  bottom: 220px;
+  width: 55px;
+  height: 59px;
+}
+.icon2 {
+  position: relative;
+  right: 130px;
+  bottom: 5px;
+  width: 55px;
+  height: 65px;
+}
+.icon3 {
+  position: relative;
+  left: 230px;
+  top: 60px;
+  width: 55px;
+  height: 55px;
+}
+.hero-text {
+  position: relative;
+  bottom: 500px;
+  height: 150px;
+}
+.vector {
+  width: 440px;
+  height: 530px;
+}
+.list-header {
+  position: relative;
+  bottom: 540px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.first-list {
+  position: relative;
+  bottom: 550px;
+  list-style: none;
+  right: 40px;
+  font-size: 14px;
+}
+.first-first {
+  padding-bottom: 60px;
+}
+.second-list {
+  position: relative;
+  bottom: 760px;
+  left: 300px;
+  list-style: none;
+  font-size: 14px;
+}
+.second-first {
+  padding-bottom: 10px;
+}
+.intro {
+  position: relative;
+  top: 90px;
+  font-size: 14px;
+}
+
+.second-section {
+  position: relative;
+  bottom: 250px;
+}
+.file-upload-input {
+  border-radius: 30px;
+  width: 250px;
+  /* height: 30px; */
+  background-color: #032c46;
+  color: white;
+}
+.file-upload-input:hover {
+  background-color: #0b4163;
+}
+.predict {
+  width: 150px;
+  border-radius: 30px;
+  background-color: #032c46;
+  color: white;
+  height: 50px;
+  margin-top: 20px;
+}
+.predict:hover {
+  background-color: #0b4163;
+}
+
+/* body {
+  margin-left: auto;
+  color: white;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  height: 80px;
+  width: 64px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.home-button {
+  color: #4cc852;
+  float: right;
+  font-weight: bold;
+  margin-right: 64px;
+  position: relative;
+  top: 40px;
+  font-size: 28px;
+  text-decoration: none;
+}
+.home-button:hover {
+  text-decoration: underline;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 900px auto;
+}
+.item1 {
+  padding-left: 16px;
+  padding-top: 30px;
+}
+.hero-text1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.hero-text2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.text-one {
+  margin-top: 40px;
+}
+
+.text-two {
+  margin-left: 22px;
+}
+.text-four {
+  margin-top: 30px;
+  margin-left: 22px;
+}
+.para-one {
+  margin-left: 22px;
+}
+.get-started {
+  margin-top: 20px;
+  margin-left: 22px;
+  width: 130px;
+  background-color: #4cc852;
+  color: white;
+  border-radius: 30px;
+}
+.get-started:hover {
+  background-color: #4baa50;
+}
+.second-section {
+  padding-top: 20px;
+  margin-top: 250px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-upload-input {
+  width: 210px;
+  background-color: #4cc852;
+  color: white;
+  border-radius: 30px;
+  margin-right: 50px;
+}
+.predict {
+  width: 130px;
+  background-color: #4cc852;
+  color: white;
+  border-radius: 30px;
+}
+.predict:hover {
+  background-color: #4baa50;
+} */
